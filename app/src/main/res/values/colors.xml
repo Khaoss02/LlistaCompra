@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="soft_yellow">#FFFDE7</color> <!-- Amarillo muy suave de fondo -->
+    <color name="accent_yellow">#FBC02D</color> <!-- Amarillo oscuro para botones -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#212121</color>
+    <color name="gray_dark">#424242</color>
+
+</resources>

@@ -1,0 +1,8 @@
+<resources>    <style name="Theme.RepeticioLlistaCompra" parent="Theme.Material3.DayNight.NoActionBar">
+    <!-- Color de fondo para todas las pantallas -->
+    <item name="android:windowBackground">@color/soft_yellow</item>
+    <!-- Color principal de la marca -->
+    <item name="colorPrimary">@color/accent_yellow</item>
+    <item name="colorSecondary">@color/accent_yellow</item>
+</style>
+</resources>

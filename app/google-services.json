@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "327555437566",
+    "project_id": "repeticiollistacompra",
+    "storage_bucket": "repeticiollistacompra.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327555437566:android:ae185b8f9f2319d47fe6af",
+        "android_client_info": {
+          "package_name": "com.guillem.repeticiollistacompra"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwqYnBcppxNIaYVrsUNqG1hbcXMNM1M0Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="12dp"
+    android:layout_marginVertical="6dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="#FFE082"
+    app:cardBackgroundColor="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="16dp">
+
+        <!-- Icono decorativo a la izquierda (opcional, pero queda muy bien) -->
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="20dp"
+            android:src="@android:drawable/ic_menu_sort_by_size"
+            app:tint="#FBC02D" />
+
+        <!-- Texto con fuente más oscura y estilizada -->
+        <TextView
+            android:id="@+id/tvListName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#37474F"
+            android:text="Nom de la llista" />
+
+        <!-- Botón Editar con color amarillo ámbar -->
+        <ImageButton
+            android:id="@+id/btnEditList"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/ic_edit"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:tint="#FBC02D"
+            android:contentDescription="Editar" />
+
+        <!-- Botón Eliminar con un rojo más suave -->
+        <ImageButton
+            android:id="@+id/btnDeleteList"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@android:drawable/ic_menu_delete"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:tint="#EF5350"
+            android:contentDescription="Eliminar" />
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
